@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    char c;
+
+    printf("Digite um caractere: ");
+    scanf(" %c", &c);
+
+    printf("Caractere: %c\n", c);
+    printf("Codigo ASCII: %d\n", c);
+
+    return 0;
+}
